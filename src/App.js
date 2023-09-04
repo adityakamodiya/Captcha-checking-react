@@ -41,6 +41,8 @@ function App() {
           j++
           if (j === save.length) {
             alert('valid')
+            Refreshfunc()
+            setval('')
             console.log(j)
 
           }
